@@ -1,3 +1,6 @@
+// Document is ready
+$(document).ready(function () {
+
 	// Validate Username
 	$("#usercheck").hide();
 	let usernameError = true;
@@ -99,3 +102,4 @@
 			return false;
 		}
 	});
+});
